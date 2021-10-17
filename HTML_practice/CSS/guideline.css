@@ -1,7 +1,8 @@
 @charset "UTF-8";
-body {
-  background-color: #fffeee;
+main{
+  background-color:#def3ff
 }
-h1 {
-  color: #0bd;
+
+footer{
+  background-color:#eaf6fd;
 }
