@@ -1,8 +1,14 @@
 @charset "UTF-8";
+header{
+  height:100px;
+  background-color:#eaf6fd;
+}
 main{
-  background-color:#def3ff
+  background-color:#def3ff;
 }
 
 footer{
   background-color:#eaf6fd;
+  text-align:center;
+  height:50px;
 }
