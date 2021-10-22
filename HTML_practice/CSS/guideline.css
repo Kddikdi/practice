@@ -1,66 +1,76 @@
 @charset "UTF-8";
-header{
-  padding-top:20px;
-  padding-right:120px;
-  padding-bottom:20px;
-  padding-left:120px;
-  background-color:#FCE8EA;
+header {
+  padding-top: 20px;
+  padding-right: 120px;
+  padding-bottom: 20px;
+  padding-left: 120px;
+  background-color: #fce8ea;
 }
-header p{
+header p {
   font-family: "Sawarabi Gothic";
-  font-size:15px;
+  font-size: 15px;
 }
-h1{
-  color:#FC7E8B;
+h1 {
+  color: #fc7e8b;
   font-family: "M PLUS Rounded 1c";
-  font-size:50px;
+  font-size: 50px;
 }
-h2{
+h2 {
   font-family: "M PLUS Rounded 1c";
-  font-size:30px;
-  border-bottom:2px solid #FC7E8B;
+  font-size: 30px;
+  border-bottom: 2px solid #fc7e8b;
 }
 
-main{
-  background-color:#fcfbf0;
+main {
+  background-color: #fcfbf0;
 }
 section {
-  padding-top:50px;
-  padding-right:240px;
-  padding-left:240px;
+  padding-top: 50px;
+  padding-right: 240px;
+  padding-left: 240px;
 }
-ol{
+ol {
   font-family: "Sawarabi Gothic";
-  margin-top:1em;
-	padding-left: 40px;
-	list-style-type: decimal;
-  line-height:1.7;
-  text-align:justify;
-
-}
-
-aside{
-  padding-top:50px;
-  padding-right:240px;
-  padding-left:240px;
-}
-ul{
-  font-family: "Sawarabi Gothic";
-  margin-top:1em;
+  margin-top: 1em;
   padding-left: 40px;
-  list-style-type: disc;
-  line-height:1.7;
-  text-align:justify;
+  list-style-type: decimal;
+  line-height: 1.7;
+  text-align: justify;
 }
 
+aside {
+  padding-top: 50px;
+  padding-right: 240px;
+  padding-left: 240px;
+}
+ul {
+  font-family: "Sawarabi Gothic";
+  margin-top: 1em;
+  padding-left: 40px;
+  padding-bottom:10px;
+  list-style-type: disc;
+  line-height: 1.7;
+  text-align: justify;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+  padding:5px;
+  width:5%;
+  text-decoration: none;
+  color:#fff;
+  background-color: #fc7e8b;
+  border: 1px solid #fc7e8b;
+  border-radius: 35px;
+}
 
-
-footer{
-  background-color:#FCE8EA;
-  text-align:center;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:40px;
+footer {
+  background-color: #fce8ea;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
   font-size: 12px;
 }
