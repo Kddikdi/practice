@@ -19,7 +19,7 @@ main {
   background-color: #fcfbf0;
   text-align: center;
 }
-.h2 {
+h2 {
   text-align: left;
   font-family: "M PLUS Rounded 1c";
   font-size: 30px;
@@ -27,29 +27,87 @@ main {
   border-bottom: 2px solid #fc7e8b;
 }
 
-section{
+section {
   padding-top: 50px;
   padding-right: 240px;
   padding-left: 240px;
 }
-.image01{
+.image01 {
   width: 50%;
 }
-.table{
-  margin:0 auto;
+.table1 {
+  margin: 0 auto;
+}
+.table1 th {
+  background: #fc7e8b;
+  color: #fff;
+}
+.table1 tr {
+  background-color: #fce8ea;
+  padding: 0.35em;
+  border-bottom: 2px solid #fff;
+}
+.table1 th,
+.table1 td {
+  padding: 1em 10px 1em 1em;
+  border-right: 2px solid #fff;
+}
+.post {
+  margin: 20px auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.table2 {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.col1 {
+  color: #ffffff;
+  background-color: #fc7e8b;
+}
+.col2 {
+  background-color: #fce8ea;
 }
 
-.btn {
+.table2 td {
+  padding: 2em 20px 2em 2em;
+}
+.table2 tr td {
+  text-align: left;
+}
+
+select {
+  -moz-appearance: menulist;
+  -webkit-appearance: menulist;
+  border: 1px solid;
+}
+input {
+  border: 1px solid;
+}
+textarea {
+  border: 1px solid;
+}
+.submit{
   display: flex;
   justify-content: center;
-  margin:0 auto;
-  padding:5px;
-  width:15%;
+  margin: 0 auto;
+  padding: 5px;
+  width: 15%;
   text-decoration: none;
-  color:#fff;
+  color: #fff;
   background-color: #fc7e8b;
   border: 1px solid #fc7e8b;
   border-radius: 35px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5px;
+  width: 15%;
+  text-decoration: none;
+  color:#fc7e8b;
 }
 footer {
   background-color: #fce8ea;

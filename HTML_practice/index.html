@@ -25,9 +25,9 @@
     </header>
     <main>
       <section>
-        <h2 class="h2">ねこプロ入会お申し込み</h2>
+        <h2>ねこプロ入会お申し込み</h2>
         <img src="image/image01.jpeg" alt="" class="image01" />
-        <table border="1" class="table">
+        <table class="table1">
           <tr>
             <th>プラン</th>
             <th>料金</th>
@@ -44,49 +44,57 @@
           </tr>
         </table>
 
-        <form action="post">
-          <div>
-            プラン選択：
-            <select name="plan">
-              <option value="plan">のんびりプラン</option>
-              <option value="plan">わくわくプラン</option>
-            </select>
-          </div>
-          <div>
-            名前：
-            <input type="text" placeholder="名字　名前" />
-            <input type="radio" name="gender" value="男" />男
-            <input type="radio" name="gender" value="女" />女
-          </div>
-          <div>
-            血液型：
-            <select name="bloodtype">
-              <option value="A">A</option>
-              <option value="B">B</option>
-              <option value="O">O</option>
-              <option value="AB">AB</option>
-              <option value="不明">不明</option>
-            </select>
-          </div>
-          <div>
-            得意な言語：
-            <input type="checkbox" name="language" value="Java" />Java
-            <input
-              type="checkbox"
-              name="language"
-              value="JavaScript"
-            />JavaScript
-            <input type="checkbox" name="language" value="Python" />Python
-            <input type="checkbox" name="language" value="C" />C
-            <input type="checkbox" name="language" value="Ruby" />Ruby
-            <input type="checkbox" name="language" value="PHP" />PHP
-            <input type="checkbox" name="language" value="Go" />Go
-          </div>
-          <div>
-            コメント<br />
-            <textarea name=""> </textarea>
-          </div>
-          <input type="submit" value="申し込む" />
+        <form action="post" class="post">
+          <table class="table2">
+            <tr>
+              <td class="col1">プラン選択：</td>
+              <td class="col2">
+                <select name="plan">
+                  <option value="plan">のんびりプラン</option>
+                  <option value="plan">わくわくプラン</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="col1">名前：</td>
+              <td class="col2">
+                <input type="text" placeholder="名字　名前" />
+                <input type="radio" name="gender" value="男" />男
+                <input type="radio" name="gender" value="女" />女
+              </td>
+            </tr>
+            <tr>
+              <td class="col1">血液型：</td>
+              <td class="col2">
+                <select name="bloodtype">
+                  <option value="A">A</option>
+                  <option value="B">B</option>
+                  <option value="O">O</option>
+                  <option value="AB">AB</option>
+                  <option value="不明">不明</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="col1">得意な言語：</td>
+              <td class="col2">
+                <input type="checkbox" name="language" value="Java" />Java<br/>
+                <input type="checkbox" name="language" value="JavaScript"/>JavaScript <br/>
+                <input type="checkbox" name="language" value="Python" />Python<br/>
+                <input type="checkbox" name="language" value="C" />C<br/>
+                <input type="checkbox" name="language" value="Ruby" />Ruby<br/>
+                <input type="checkbox" name="language" value="PHP" />PHP<br/>
+                <input type="checkbox" name="language" value="Go" />Go<br/>
+              </td>
+            </tr>
+            <tr>
+              <td class="col1">コメント:<br /></td>
+              <td class="col2">
+                <textarea name=""> </textarea>
+              </td>
+            </tr>
+          </table>
+          <input type="submit" class="submit" value="申し込む" />
         </form>
         <a href="guideline.html" class="btn">ガイドライン</a>
       </section>
