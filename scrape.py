@@ -17,7 +17,7 @@ def getNews(word):
     req = urllib.request.Request(url, headers={'User-Agent': ua})
     html = urllib.request.urlopen(req)
     soup = BeautifulSoup(html, "html.parser")
-    main = soup.find('div', attrs={'class': 'sc-jtRfpW dYgtLJ'})
+    main = soup.find('div', attrs={'class': 'sc-gxMtzJ cAiEHx'})
     topics = main.select("li > a")
 
     # 該当記事カウント変数と結果格納リスト
